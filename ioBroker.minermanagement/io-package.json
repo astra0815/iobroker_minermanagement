@@ -1,0 +1,91 @@
+{
+	"common": {
+		"name": "minermanagement",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"uk": "Початкова версія",
+				"zh-cn": "首次出版"
+			}
+		},
+		"titleLang": {
+			"en": "Minermanagement",
+			"de": "Minermanagement",
+			"ru": "Minermanagement",
+			"pt": "Mineranagement",
+			"nl": "Minermanagement",
+			"fr": "Minermanation",
+			"it": "Minermanagement",
+			"es": "Minerana",
+			"pl": "Minermanagement",
+			"uk": "Мінермановизначення",
+			"zh-cn": "无线电"
+		},
+		"desc": {
+			"en": "Minermanagement",
+			"de": "Minermanagement",
+			"ru": "Minermanagement",
+			"pt": "Mineranagement",
+			"nl": "Minermanagement",
+			"fr": "Minermanation",
+			"it": "Minermanagement",
+			"es": "Minerana",
+			"pl": "Minermanagement",
+			"uk": "Мінермановизначення",
+			"zh-cn": "无线电"
+		},
+		"authors": [
+			"SB <astra0815@gmx.net>"
+		],
+		"keywords": [
+			"ioBroker",
+			"template",
+			"Smart Home",
+			"home automation"
+		],
+		"licenseInformation": {
+			"type": "free",
+			"license": "MIT"
+		},
+		"platform": "Javascript/Node.js",
+		"icon": "minermanagement.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/astra0815/ioBroker.minermanagement/main/admin/minermanagement.png",
+		"readme": "https://github.com/astra0815/ioBroker.minermanagement/blob/main/README.md",
+		"loglevel": "info",
+		"tier": 3,
+		"mode": "daemon",
+		"type": "hardware",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"adminUI": {
+			"config": "json"
+		},
+		"dependencies": [
+			{
+				"js-controller": ">=6.0.11"
+			}
+		],
+		"globalDependencies": [
+			{
+				"admin": "7.0.23"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}
